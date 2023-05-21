@@ -1,0 +1,56 @@
+{
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorStyle": "line",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'GoMono Nerd Font Mono', 'JetBrainsMono Nerd Font Mono', 'agave Nerd Font Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+
+  "eslint.format.enable": true,
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.enable": true,
+  "prettier.endOfLine": "lf",
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.printWidth": 80,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": false,
+
+  "terminal.integrated.fontSize": 15,
+
+  "vscord.app.name": "VSCodium",
+
+  "window.menuBarVisibility": "hidden",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 2,
+
+  "workbench.colorTheme": "Black Waves",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  }
+}
