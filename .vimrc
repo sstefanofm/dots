@@ -50,7 +50,7 @@ set expandtab
 syntax enable
 colorscheme default
 
-let mapleader="\<space>"
+let mapleader=","
 
 nmap <Leader>q :q<CR>
 nmap <Leader>w :w<CR>
