@@ -9,8 +9,7 @@
 export EDITOR='vim'
 export VISUAL="$EDITOR"
 export HISTCONTROL=ignoreboth:erasedups
-export PAGER='most'
-export MOST_KEY_BINDINGS='vim'
+export PAGER='less'
 
 # colored man pages
 export LESS_TERMCAP_mb=$'\e[1;32m'
@@ -76,18 +75,15 @@ ex () { # extractor for all kinds of archives
 # aliases
 
 alias ls='ls --color=auto'
-alias l.="ls -A | grep -E '^\.' | lolcat"
-alias lsd="ls -d */"
-
-alias cat='bat'
-alias ccat='cat'
+alias l="ls -A | grep -E '^\.' | lolcat"
+alias lsd="ls -d */ | lolcat"
 
 alias v="vim"
 alias nv="nvim"
 
 alias sl="sl | lolcat"
 
-alias lsbat="ccat /sys/class/power_supply/BAT0/capacity" # show battery percentage
+alias lsbat="cat /sys/class/power_supply/BAT0/capacity | lolcat" # show battery percentage
 
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
