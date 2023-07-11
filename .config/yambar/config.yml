@@ -1,0 +1,9 @@
+bar:
+  height: 24
+  location: top
+  background: 00336699
+
+  right:
+    - clock:
+        content:
+          - string: { text: "{time}" }
