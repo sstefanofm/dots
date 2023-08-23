@@ -1,78 +1,100 @@
 {
-    "workbench.colorTheme": "Bearded Theme Black & Amethyst",
-    "window.menuBarVisibility": "toggle",
-    "window.titleBarStyle": "custom",
-    "window.zoomLevel": 0.7,
-    "editor.lineNumbers": "relative",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "phase",
-    "editor.tabSize": 4,
-    "editor.useTabStops": false,
-    "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono', 'mononoki Nerd Font Mono', 'monospace', monospace",
-    "editor.fontSize": 15,
-    "editor.formatOnSave": true,
-    "terminal.integrated.fontFamily": "'mononoki Nerd Font Mono'",
-    "terminal.integrated.fontSize": 15,
-    "git.openRepositoryInParentFolders": "never",
-    "prettier.arrowParens": "avoid",
-    "prettier.bracketSameLine": false,
-    "prettier.bracketSpacing": true,
-    "prettier.embeddedLanguageFormatting": "auto",
-    "prettier.enable": true,
-    "prettier.endOfLine": "lf",
-    "prettier.htmlWhitespaceSensitivity": "ignore",
-    "prettier.jsxSingleQuote": true,
-    "prettier.printWidth": 120,
-    "prettier.proseWrap": "always",
-    "prettier.quoteProps": "as-needed",
-    "prettier.semi": false,
-    "prettier.singleAttributePerLine": true,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 2,
-    "prettier.trailingComma": "all",
-    "prettier.useTabs": false,
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.tabSize": 2,
+  "editor.useTabStops": false,
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono', 'mononoki Nerd Font Mono', 'monospace', monospace",
+  "editor.fontSize": 15,
+  "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.inlayHints.fontFamily": "'CaskaydiaCove Nerd Font Mono', 'mononoki Nerd Font Mono', 'monospace', monospace",
+  "editor.inlayHints.fontSize": 15,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.fontSize": 15,
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0.7,
+  "workbench.colorTheme": "Bearded Theme Black & Amethyst",
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSameLine": false,
+  "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.enable": true,
+  "prettier.endOfLine": "lf",
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 120,
+  "prettier.proseWrap": "always",
+  "prettier.quoteProps": "as-needed",
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.easymotion": true,
+  "vim.smartRelativeLine": true,
+  "vim.leader": ",",
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": [":w"]
     },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "before": ["<leader>", "q"],
+      "commands": [":q"]
     },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "before": ["<leader>", "x"],
+      "commands": [":x"]
     },
-    "vim.easymotion": true,
-    "vim.smartRelativeLine": true,
-    "vim.leader": ",",
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.hlsearch": true,
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["<leader>", "w"],
-            "commands": [":w"]
-        },
-        {
-            "before": ["<leader>", "q"],
-            "commands": [":q"]
-        },
-        {
-            "before": ["<leader>", "x"],
-            "commands": [":x"]
-        },
-        {
-            "before": ["<tab>"],
-            "commands": [":bn"]
-        },
-        {
-            "before": ["<s-tab>"],
-            "commands": [":bp"]
-        }
-    ],
-    "vim.handleKeys": {
-        "<C-d>": true,
-        "<C-s>": true,
-        "<C-z>": true,
-        "<C-f>": true,
-        "<C-b>": false
+    {
+      "before": ["<tab>"],
+      "commands": [":bn"]
+    },
+    {
+      "before": ["<s-tab>"],
+      "commands": [":bp"]
+    },
+    {
+      "before": [";"],
+      "after": [":"]
     }
+  ],
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": true,
+    "<C-z>": true,
+    "<C-f>": true,
+    "<C-b>": false,
+    "<C-k>": false
+  }
 }
