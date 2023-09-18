@@ -3,6 +3,7 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin', '~/.config/nvim/plugged')
   -- themes
   Plug('ayu-theme/ayu-vim', { as = 'ayu' })
+  Plug('daltonmenezes/aura-theme', { as = 'aura', rtp = 'packages/neovim' })
 
   -- status bar
   Plug 'beauwilliams/statusline.lua'

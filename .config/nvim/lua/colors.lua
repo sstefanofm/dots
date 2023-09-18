@@ -1,6 +1,9 @@
+-- available colorshemes:
+-- ayu
+
 vim.cmd [[
   syntax enable
   let ayucolor="dark"
-  colorscheme ayu
+  colorscheme aura-dark
   set termguicolors
 ]]
