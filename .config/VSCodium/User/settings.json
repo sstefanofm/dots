@@ -7,27 +7,29 @@
   "editor.useTabStops": false,
   "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono', 'mononoki Nerd Font Mono', 'monospace', monospace",
   "editor.fontSize": 15,
+  "editor.linkedEditing": true,
   "editor.formatOnSave": true,
   "editor.inlayHints.enabled": "on",
   "editor.inlayHints.fontFamily": "'CaskaydiaCove Nerd Font Mono', 'mononoki Nerd Font Mono', 'monospace', monospace",
   "editor.inlayHints.fontSize": 15,
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "javascript.inlayHints.enumMemberValues.enabled": true,
-  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "javascript.inlayHints.parameterTypes.enabled": true,
-  "javascript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.enumMemberValues.enabled": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "git.openRepositoryInParentFolders": "never",
   "terminal.integrated.fontSize": 15,
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 0.7,
+  "window.zoomLevel": 1,
   "workbench.colorTheme": "Bearded Theme Black & Amethyst",
+  "workbench.iconTheme": "bearded-icons",
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "none",
+  "javascript.inlayHints.parameterTypes.enabled": false,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": false,
+  "javascript.inlayHints.variableTypes.enabled": false,
+  "typescript.inlayHints.enumMemberValues.enabled": false,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "typescript.inlayHints.parameterTypes.enabled": false,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": false,
+  "typescript.inlayHints.variableTypes.enabled": false,
   "prettier.arrowParens": "avoid",
   "prettier.bracketSameLine": false,
   "prettier.bracketSpacing": true,
@@ -55,6 +57,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "vim.easymotion": true,
@@ -96,5 +101,6 @@
     "<C-f>": true,
     "<C-b>": false,
     "<C-k>": false
-  }
+  },
+  "importCost.fontStyle": "italic"
 }
