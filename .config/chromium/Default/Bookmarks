@@ -1,0 +1,217 @@
+{
+   "checksum": "2e3525061c2fa0b9a4b2dd96a3951677",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13341974170409199",
+               "date_last_used": "13342545332293067",
+               "guid": "eb4a00d7-7373-43f8-aaff-766d5821ce6b",
+               "id": "18",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "OSDev Wiki",
+               "type": "url",
+               "url": "https://wiki.osdev.org/Tutorials"
+            }, {
+               "date_added": "13341975745331339",
+               "date_last_used": "13342542856012717",
+               "guid": "bb43b580-5b2b-4b9a-bef1-1ccd592a9abb",
+               "id": "21",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "1 Cross-Compiler",
+               "type": "url",
+               "url": "https://wiki.osdev.org/GCC_Cross-Compiler"
+            }, {
+               "date_added": "13342545414858826",
+               "date_last_used": "13342545428079123",
+               "guid": "5d386e78-1f1c-43ae-9f53-bab9f180b8f4",
+               "id": "24",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "2 32-bit kernel",
+               "type": "url",
+               "url": "https://wiki.osdev.org/Bare_Bones#Overview"
+            } ],
+            "date_added": "13341974166056667",
+            "date_last_used": "0",
+            "date_modified": "13342545414858826",
+            "guid": "a4956b48-dbe7-4427-acdb-9a95d8d71943",
+            "id": "17",
+            "name": "kernel",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13337988823966979",
+               "date_last_used": "13341974181268390",
+               "guid": "e81d51eb-eabf-4163-b702-f459494a28e9",
+               "id": "11",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "robots.txt",
+               "type": "url",
+               "url": "http://www.robotstxt.org/"
+            } ],
+            "date_added": "13341974188496008",
+            "date_last_used": "0",
+            "date_modified": "13341974992606870",
+            "guid": "95fe1b27-fbe8-4156-b80f-9d29fca1edce",
+            "id": "19",
+            "name": "web",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13342805977929853",
+               "date_last_used": "0",
+               "guid": "bd645795-ea53-4042-9aef-ca5a5a0e46d5",
+               "id": "27",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "RetinaNet",
+               "type": "url",
+               "url": "https://arxiv.org/abs/1708.02002"
+            }, {
+               "date_added": "13342805992742911",
+               "date_last_used": "0",
+               "guid": "4914e573-7341-430c-90df-262b98f6c482",
+               "id": "28",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "pytorch-retinanet",
+               "type": "url",
+               "url": "https://github.com/yhenon/pytorch-retinanet"
+            }, {
+               "date_added": "13342806002702402",
+               "date_last_used": "0",
+               "guid": "3f9b7746-6369-4987-9684-b6ab76659647",
+               "id": "29",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "SSD",
+               "type": "url",
+               "url": "https://arxiv.org/abs/1512.02325"
+            }, {
+               "date_added": "13342806007776495",
+               "date_last_used": "0",
+               "guid": "dc1623a1-ad87-46f0-a9b7-689cf4427fab",
+               "id": "30",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "R-CNN",
+               "type": "url",
+               "url": "https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e"
+            }, {
+               "date_added": "13342806013325830",
+               "date_last_used": "0",
+               "guid": "ca097fa0-3720-4f85-8233-56e712bda323",
+               "id": "31",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ImageAI",
+               "type": "url",
+               "url": "https://imageai.readthedocs.io/en/latest/"
+            }, {
+               "date_added": "13342806016295811",
+               "date_last_used": "0",
+               "guid": "ded07fed-578b-402f-a754-31ee0bea7253",
+               "id": "32",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "OpenCV",
+               "type": "url",
+               "url": "https://opencv.org/"
+            }, {
+               "date_added": "13342806019857602",
+               "date_last_used": "0",
+               "guid": "6a6e3fbd-792c-433b-b341-77c7dd2f93f7",
+               "id": "33",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Keras",
+               "type": "url",
+               "url": "https://keras.io/"
+            }, {
+               "date_added": "13342806102214739",
+               "date_last_used": "0",
+               "guid": "baa7cf0e-7fd0-4cc4-bdcc-4bf9a7e38cf9",
+               "id": "35",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "TensorFlow",
+               "type": "url",
+               "url": "https://www.tensorflow.org/"
+            }, {
+               "date_added": "13342806134122320",
+               "date_last_used": "0",
+               "guid": "e183a55b-afe1-43ae-8d36-45ced7934d5f",
+               "id": "36",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "FritzAi",
+               "type": "url",
+               "url": "https://fritz.ai/"
+            } ],
+            "date_added": "13342805973799623",
+            "date_last_used": "0",
+            "date_modified": "13342806134122320",
+            "guid": "81806e2f-fa5f-4a4c-8926-7da535432ed2",
+            "id": "26",
+            "name": "ai",
+            "type": "folder"
+         }, {
+            "date_added": "13341974992606870",
+            "date_last_used": "0",
+            "guid": "430ad860-fd22-4def-bf0f-62fb5f2e0549",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "SmartTube",
+            "type": "url",
+            "url": "https://github.com/yuliskov/SmartTube"
+         } ],
+         "date_added": "13337127495076366",
+         "date_last_used": "0",
+         "date_modified": "13342805977929853",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13337127495076368",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13337127495076369",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
