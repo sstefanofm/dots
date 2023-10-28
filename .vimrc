@@ -56,6 +56,3 @@ nmap <Leader>q :q<CR>
 nmap <Leader>w :w<CR>
 nmap <Leader>x :x<CR>
 
-call plug#begin()
-  Plug 'fladson/vim-kitty'
-call plug#end()
