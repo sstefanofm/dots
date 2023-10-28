@@ -35,6 +35,13 @@ fi
 PATH="$HOME/.bin:$PATH"
 
 #
+# KERNEL DEV
+
+export PREFIX="$HOME/opt/cross"
+export TARGET=i686-elf
+export PATH="$PREFIX/bin:$PATH"
+
+#
 # ignore case when using TAB
 
 bind "set completion-ignore-case on"
