@@ -15,6 +15,9 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
+alias cat='bat'
+alias ccat='cat'
+
 alias df='df -h'
 
 #alias whichvga="/usr/local/bin/arcolinux-which-vga" # which graphical card is working
