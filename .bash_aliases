@@ -1,6 +1,6 @@
 alias ls='ls --color=auto'
 alias l="ls -CF"
-alias ll="ls -aLF"
+alias ll="ls -alLF"
 alias la="ls -A"
 alias lsd="ls -d */ | lolcat"
 
@@ -15,7 +15,7 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
-alias cat='bat'
+alias cat='batcat'
 alias ccat='cat'
 
 alias df='df -h'
