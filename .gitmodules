@@ -1,0 +1,3 @@
+[submodule "dwm"]
+	path = .config/dwm
+	url = git@github.com:sstefanofm/dwm
