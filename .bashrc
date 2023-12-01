@@ -85,6 +85,10 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 #
+# PATH
+PATH="$PATH:$HOME/.local/bin"
+
+#
 # colored man pages
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
