@@ -40,6 +40,10 @@ endif
 " stf's
 "
 
+" change cursor between normal/insert modes
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+
 set listchars=tab:‣\ ,trail:·,nbsp:·
 
 set tabstop=2
