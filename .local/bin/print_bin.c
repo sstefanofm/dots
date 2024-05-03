@@ -22,15 +22,10 @@ str_len(char *str)
 int
 pow_n(int base, int n)
 {
-  if (n == 0)
+  if (!n)
     return 1;
 
-  int x = base;
-
-  for (int i = 1; i < n; ++i)
-    x *= base;
-
-  return x;
+  return base * pow_n(base, --n);
 }
 
 int
