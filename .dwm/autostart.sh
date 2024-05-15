@@ -1,5 +1,7 @@
 #! /bin/bash
 
-nitrogen --restore
-# feh --bg-fill ~/pics/backgrounds/\[purple\]abstract.png &
-picom -b
+# nitrogen --restore
+dwmblocks
+picom
+xrandr --output eDP-1 --right-of HDMI-1
+feh --bg-fill ~/pics/backgrounds/\[black\]eva1.jpg
