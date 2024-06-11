@@ -92,6 +92,18 @@ fi
 PATH="$PATH:$HOME/.local/bin"
 
 #
+# PS1
+if [ "`id -u`" -eq 0 ]; then # root user
+    PS1="   \[\e[1;31m\]\u\[\e[1;36m\]\[\033[m\]@\[\e[1;36m\]\h\[\033[m\]\[\e[0m\]\[\e[1;31m\] [\w] \[\e[1;34m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[\e[1;37m\] \[\e[0m\]\n 󱙧  "
+else
+    PS1=" 󰞇  \[\e[1m\]\u\[\e[1;36m\]\[\033[m\]@\[\e[1;36m\]\h\[\033[m\]\[\e[0m\]\[\e[1;31m\] [\w] \[\e[1;34m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[\e[1;37m\] \[\e[0m\]\n 󱙧  "
+fi
+
+#
+# ENV
+#
+
+#
 # colored man pages
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
@@ -102,10 +114,5 @@ export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 #
-# PS1
-if [ "`id -u`" -eq 0 ]; then # root user
-    PS1="   \[\e[1;31m\]\u\[\e[1;36m\]\[\033[m\]@\[\e[1;36m\]\h\[\033[m\]\[\e[0m\]\[\e[1;31m\] [\w] \[\e[1;34m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[\e[1;37m\] \[\e[0m\]\n 󱙧  "
-else
-    PS1=" 󰞇  \[\e[1m\]\u\[\e[1;36m\]\[\033[m\]@\[\e[1;36m\]\h\[\033[m\]\[\e[0m\]\[\e[1;31m\] [\w] \[\e[1;34m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[\e[1;37m\] \[\e[0m\]\n 󱙧  "
-fi
-
+# ionic
+export CAPACITOR_ANDROID_STUDIO_PATH="/sbin/android-studio"
