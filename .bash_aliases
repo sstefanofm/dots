@@ -15,8 +15,8 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
-alias cat='batcat'
-alias ccat='cat'
+alias cat='bat'
+alias ccat='/sbin/cat'
 
 alias ff='fastfetch'
 
