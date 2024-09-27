@@ -7,4 +7,4 @@ if [ "$(cat /sys/class/power_supply/BAT0/status)" = "Charging" ]; then
   icon_batt="󱐋 "
 fi
 
-echo "$icon_batt $batt% "
+echo -e "\x03$icon_batt \x01$batt%"
