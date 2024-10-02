@@ -37,3 +37,4 @@ rmbdh
 cp blocks.h blocks.def.h
 smki
 rmbdh
+sudo cp udev_rules/* /etc/udev/rules.d/
