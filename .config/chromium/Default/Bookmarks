@@ -1,5 +1,5 @@
 {
-   "checksum": "2e3525061c2fa0b9a4b2dd96a3951677",
+   "checksum": "d1c08ecb5b0772b00ca4df453749a459",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -56,10 +56,21 @@
                "name": "robots.txt",
                "type": "url",
                "url": "http://www.robotstxt.org/"
+            }, {
+               "date_added": "13371228867626172",
+               "date_last_used": "0",
+               "guid": "cd2d8405-3344-4ab7-8480-bdb4efdb0383",
+               "id": "38",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Binary clock",
+               "type": "url",
+               "url": "https://samuel-saegesser.ch/_apps/BinaryClock_UNIX/index.php"
             } ],
             "date_added": "13341974188496008",
             "date_last_used": "0",
-            "date_modified": "13341974992606870",
+            "date_modified": "13371228876232704",
             "guid": "95fe1b27-fbe8-4156-b80f-9d29fca1edce",
             "id": "19",
             "name": "web",
@@ -196,7 +207,7 @@
          "children": [  ],
          "date_added": "13337127495076368",
          "date_last_used": "0",
-         "date_modified": "0",
+         "date_modified": "13371228867626172",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
          "id": "2",
          "name": "Other bookmarks",
