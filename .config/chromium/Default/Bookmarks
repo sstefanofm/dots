@@ -1,5 +1,5 @@
 {
-   "checksum": "d1c08ecb5b0772b00ca4df453749a459",
+   "checksum": "7a45796cc5a141eb5461369cf2c792e5",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -70,7 +70,7 @@
             } ],
             "date_added": "13341974188496008",
             "date_last_used": "0",
-            "date_modified": "13371228876232704",
+            "date_modified": "13377288916522539",
             "guid": "95fe1b27-fbe8-4156-b80f-9d29fca1edce",
             "id": "19",
             "name": "web",
@@ -184,6 +184,26 @@
             "name": "ai",
             "type": "folder"
          }, {
+            "children": [ {
+               "date_added": "13386117304123009",
+               "date_last_used": "0",
+               "guid": "046df755-1d1f-43ea-9282-628604276efe",
+               "id": "41",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "OWASP",
+               "type": "url",
+               "url": "https://owasp.org/"
+            } ],
+            "date_added": "13386117282874069",
+            "date_last_used": "0",
+            "date_modified": "13386117311752244",
+            "guid": "52c12bdc-1d94-4011-af67-11750b2573f6",
+            "id": "40",
+            "name": "hacking",
+            "type": "folder"
+         }, {
             "date_added": "13341974992606870",
             "date_last_used": "0",
             "guid": "430ad860-fd22-4def-bf0f-62fb5f2e0549",
@@ -197,7 +217,7 @@
          } ],
          "date_added": "13337127495076366",
          "date_last_used": "0",
-         "date_modified": "13342805977929853",
+         "date_modified": "13386117304123009",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",
