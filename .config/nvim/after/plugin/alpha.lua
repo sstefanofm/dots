@@ -1,4 +1,7 @@
-local las_plagas = {
+local alpha = require 'alpha'
+local dashboard = require 'alpha.themes.startify'
+
+dashboard.section.header.val = {
   "  +                                           +    ",
   "  ++                                         ++    ",
   "   ++++                                  +++++     ",
@@ -22,4 +25,4 @@ local las_plagas = {
   "                        +                          ",
 }
 
-return las_plagas
+alpha.setup(dashboard.opts)
