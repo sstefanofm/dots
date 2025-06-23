@@ -81,6 +81,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# change keymap and send signal to dwmblocks
+setxkbmap() {
+  /sbin/setxkbmap "$@" && /sbin/pkill -RTMIN+3 dwmblocks
+}
+
 #
 # PATH
 PATH="$PATH:$HOME/.local/bin"
