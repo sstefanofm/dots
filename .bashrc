@@ -117,6 +117,9 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 # ionic
 export CAPACITOR_ANDROID_STUDIO_PATH="/sbin/android-studio"
 
+#
+# JAVA_HOME
+export JAVA_HOME="/usr/lib/jvm/default-runtime"
 
 #
 # Angular CLI autocompletion
