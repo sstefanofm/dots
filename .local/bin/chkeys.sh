@@ -11,9 +11,9 @@ get_keymap() {
 
 switch() {
   if [ "$1" = "us" ]; then
-    setxkbmap es
+    setxkbmap es && /sbin/pkill -RTMIN+3 dwmblocks
   else
-    setxkbmap us
+    setxkbmap us && /sbin/pkill -RTMIN+3 dwmblocks
   fi
 }
 
