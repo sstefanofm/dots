@@ -1,0 +1,8 @@
+[default]
+path = "~/pics/wall"
+duration = "30m"
+mode = "center"
+# mode = "fit"
+# mode = "stretch"
+# mode = "tile"
+sorting = "random"
