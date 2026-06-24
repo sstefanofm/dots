@@ -128,4 +128,4 @@ export JAVA_HOME="/usr/lib/jvm/default-runtime"
 
 #
 # Angular CLI autocompletion
-source <(ng completion script)
+# source <(ng completion script)
