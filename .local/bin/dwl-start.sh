@@ -3,4 +3,6 @@
 export PATH="$HOME/.local/bin:$PATH"
 export SUDO_ASKPASS="/usr/lib/seahorse/ssh-askpass"
 
-exec dwl -s "$HOME/.config/dwl/autostart.sh"
+pkill -x slstatus
+
+exec slstatus -s | dwl -s "$HOME/.config/dwl/autostart.sh"
