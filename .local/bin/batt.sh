@@ -1,5 +1,15 @@
 #! /usr/bin/env bash
 
+NOCOLOR=0
+
+for arg in "$@"; do
+  case "$arg" in
+    --nocolor)
+      NOCOLOR=1
+      ;;
+  esac
+done
+
 batt="$(cat /sys/class/power_supply/BAT0/capacity)"
 
 icon_batt="󰄌 "
@@ -15,4 +25,8 @@ elif [ "$batt" -ge 21 ]; then
 fi
 # \x03 SchemeBarNormal
 
-echo -e "$color$icon_batt \x03$batt%"
+if [ "$NOCOLOR" -eq 1 ]; then
+  echo "$icon_batt $batt%"
+else
+  echo -e "$color$icon_batt \x03$batt%"
+fi
