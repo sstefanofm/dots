@@ -7,3 +7,6 @@
 [submodule ".config/dwl"]
 	path = .config/dwl
 	url = git@github.com:sstefanofm/dwl.git
+[submodule ".config/slstatus"]
+	path = .config/slstatus
+	url = git@github.com:sstefanofm/slstatus.git
